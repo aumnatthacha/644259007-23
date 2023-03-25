@@ -24,21 +24,21 @@ $jsonUser = json_decode($json, true);
         <link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Signika:400' rel='stylesheet' type='text/css'>
         <div class="card-holder">
-        <div class="CARD">
+        <div class="card">
         <img src="https://www.npru.ac.th/2019/img/logo.png" width="375">
 
 
-        <br> <span class="NAME"> ชื่อ-สกุล <?php echo $jsonUser[2]; ?></span>
-        <br> <span class="NAME"> รหัสนักศึกษา <?php echo $jsonUser[3]; ?></span>
-        <br> <span class="NAME">สาขา <?php echo $jsonUser[4]; ?></span><br></br>
-        <span class="NUMBER"><?php echo $jsonUser[5]; ?></span>
-        <br> <span class="NAME"><?php echo $rs2 = $obj->years(); ?></span><br></br>
+        <br> <span class="name"> ชื่อ-สกุล <?php echo $jsonUser[2]; ?></span>
+        <br> <span class="name"> รหัสนักศึกษา <?php echo $jsonUser[3]; ?></span>
+        <br> <span class="name">สาขา <?php echo $jsonUser[4]; ?></span><br></br>
+        <span class="number"><?php echo $jsonUser[5]; ?></span>
+        <br> <span class="name"><?php echo $rs2 = $obj->years(); ?></span><br></br>
 
-        <span class="IMG-TA"></span>
+        <span class="img-taaom"></span>
         <span class="VISA"></span>
         <span class="chipcard"></span>
-        <span class="PAYWEVE"></span>
-        <span class="NAME">NATTHACHA MUMDAENG</span>
+        <span class="payweve"></span>
+        <span class="name">NATTHACHA MUMDAENG</span>
 </body>
 </html>
 

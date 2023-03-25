@@ -2,7 +2,7 @@ body {
   background: linear-gradient(125deg, #1e4437, #2e8c7f 55%);
   }
   
-  .CARD {
+  .card {
     font-family: Share Tech Mono;
     background-color: #9BA7B2;
     display: block;
@@ -31,7 +31,7 @@ body {
     display: inline-block;
   }
   
-  .NUMBER {
+  .number {
     display: inline-block;
     padding-top: 1px;
       font-size: 32px;
@@ -39,7 +39,7 @@ body {
       position: relative;
   }
   
-  .NAME {
+  .name {
     font-size: 22px;
     padding-left: 150px;
     color: black;
@@ -47,7 +47,7 @@ body {
     padding-bottom: 5px;
   }
 
-  .IMG-TA { 
+  .img-taaom { 
       position: absolute;
     top: 55px;
     left: 530px;
@@ -91,7 +91,7 @@ body {
       background-size: cover;
       
   }
-  .PAYWEVE{ 
+  .payweve{ 
     position: absolute;
     top: 300px;
     left: 560px;
@@ -105,5 +105,3 @@ body {
       background-size: cover;
       
   }
-  
-  
